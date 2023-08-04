@@ -73,7 +73,7 @@ var tl = gsap.timeline({
 })
 
 tl.to("#page1>h1",{
-    top:`-50%`
+    top:`-15%`
 })
 
 
@@ -88,7 +88,7 @@ var tl_1 = gsap.timeline({
 })
 
 tl_1.to("#page2>h1",{
-    top:`-50%`
+    top:`-20%`
 })
 
 
@@ -103,7 +103,7 @@ var tl_2 = gsap.timeline({
 })
 
 tl_2.to("#page4>#page4_center",{
-    top:`-50%`
+    top:`-25%`
 })
 
 
