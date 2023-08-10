@@ -106,6 +106,20 @@ tl_2.to("#page4>#page4_center",{
     top:`-25%`
 })
 
+var tl_5 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#page4_extra`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+
+tl_5.to("#page4_extra>#page4_center",{
+  top:`-25%`
+})
+
 
 function canvas(){
     const canvas = document.querySelector("#page7>canvas");
@@ -435,3 +449,21 @@ gsap.to("#page26>video",{
       document.querySelector("#page26>video").play()
   }
 })
+
+
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  keyboard: {
+    enabled: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    
    
     
 </head>
 <body>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -61,7 +64,8 @@
             <div id="page3_upper_inner">
 
                 <h2>Watch the film</h2>
-                <h2>Watch the event ></h2>
+                <a href="https://www.apple.com/apple-events/">Watch the event</a>
+                <!-- <h2>Watch the event ></h2> -->
 
             </div>
 
@@ -100,6 +104,33 @@
             <div class="right_5">
                 <h2>With Vision Pro, you have an infinite canvas that transforms how you use the apps you love. Arrange apps anywhere and scale them to the perfect size, making the workspace of your dreams a reality — all while staying present in the world around you. Browse the web in Safari, create a to-do list in Notes, chat in Messages, and seamlessly move between them with a glance.</h2>
                 <button> + Learn more about apps</button>
+            </div>
+
+        </div>
+
+        <div id="page4_extra">
+
+            <video src="media/page4_extra.mp4" autoplay loop muted></video>
+
+            <div id="page4_center">
+
+                <h4>Photos and Videos</h4>
+                <h1>Be in the moment. <br> All over again.</h1>
+
+            </div>
+            
+
+        </div>
+
+        <div id="page5_extra">
+
+            <div class="left_5">
+                <h1>Your memories come alive.                </h1>
+            </div>
+
+            <div class="right_5">
+                <h2>Vision Pro is Apple’s first 3D camera. You can capture magical spatial photos and spatial videos in 3D, then relive those cherished moments like never before with immersive Spatial Audio. Your existing library of photos and videos looks incredible at remarkable scale. And panoramas wrap around you — making you feel like you’re standing right where you took them.</h2>
+                <button> + Learn more about photos and videos</button>
             </div>
 
         </div>
@@ -163,6 +194,55 @@
             <img src="media/page16.jpg" alt="">
             <button> + Learn more about design </button>
         </div>
+
+
+
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <video src="media/slide1.mp4" autoplay loop muted></video>
+                <h3>The <span>Light Seal</span> magnetically attaches to the aluminum alloy frame. It gently flexes to conform to individual face shapes.</h3>
+              </div>
+              <div class="swiper-slide">
+                <video src="media/slide2.mp4" autoplay loop muted></video>
+                <h3>The <span>Head Band</span> is 3D knitted, creating a unique rib structure that provides cushioning, breathability, and stretch.</h3>
+              </div>
+              <div class="swiper-slide">
+                <video src="media/slide3.mp4" autoplay loop muted></video>
+                <h3><span>Zeiss Optical Inserts</span> can be customized with your vision prescription,&sup2; magnetically attaching to the lenses for precise viewing and eye tracking.</h3>
+              </div>
+              <div class="swiper-slide">
+                <img src="media/slide4.jpg" alt="">
+                <h3>An <span>aluminum‑encased battery</span> can be slipped into a pocket for portable power. It connects using a woven braided cable.</h3>
+              </div>
+              <div class="swiper-slide">
+                <video src="media/slide5.mp4" autoplay loop muted></video>
+                <h3>Vision Pro brings <span>3D objects</span> to life. You can pull a 3D object out of an app and look at it from every angle, as if it’s right in front of you.</h3>
+              </div>
+              <div class="swiper-slide">
+                <video src="media/slide6.mp4" autoplay loop muted></video>
+                <h3>Bring your <span>Mac</span> wirelessly into Vision Pro with Mac Virtual Display. You can place it anywhere in space and use Vision Pro as an enormous, private, portable 4K display.</h3>
+              </div>
+              <div class="swiper-slide">
+                <video src="media/slide7.mp4" autoplay loop muted></video>
+                <h3>Your digital <span>Persona</span> allows others to see you while you’re wearing Vision Pro. It’s a dynamic, natural representation of your face and hand movements while you’re using FaceTime.</h3>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+
+
+
+
+
+
         
         <div id="page17">
             <h4>Technology</h4>
@@ -170,6 +250,7 @@
             <p><span>Pushing boundaries from the inside out.</span> Spatial experiences on Vision Pro are only possible through groundbreaking Apple technology. Displays the size of a postage stamp that deliver more pixels than a 4K TV to each eye. Incredible advances in Spatial Audio. A revolutionary dual‑chip design featuring custom Apple silicon. A sophisticated array of cameras and sensors. All the elements work together to create an unprecedented experience you have to see to believe.
             </p>
         </div>
+
 
         <div id="page18">
             <img src="media/page18.jpg" alt="">
